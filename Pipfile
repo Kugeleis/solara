@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+solara-ui = {extras = ["all"], file = "."}
+solara-server = {extras = ["all"], file = "packages/solara-server"}
+solara-enterprise = {extras = ["all"], file = "packages/solara-enterprise"}
+solara = {extras = ["all"], file = "packages/solara-meta"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
+python_full_version = "3.10.12"
